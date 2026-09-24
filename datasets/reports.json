@@ -1,0 +1,4522 @@
+[
+  {
+    "title": "RocketNodeDistributorDelegate - Reentrancy in `distribute()` allows node owner to drain distributor funds",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2023/01/rocket-pool-atlas-v1.2/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2023/01/rocket-pool-atlas-v1.2/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0001"
+  },
+  {
+    "title": "didTransferShares function has no access control modifier",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2022/11/forta-delegated-staking/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2022/11/forta-delegated-staking/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0002"
+  },
+  {
+    "title": "The `Hypervisor.deposit` function does not check the `msg.sender`",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2022/02/gamma/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2022/02/gamma/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0003"
+  },
+  {
+    "title": "TransactionManager - User might steal router's locked funds",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2021/07/connext-nxtp-noncustodial-xchain-transfer-protocol/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2021/07/connext-nxtp-noncustodial-xchain-transfer-protocol/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0004"
+  },
+  {
+    "title": "TribalChief - A wrong `user.rewardDebt`  value is calculated during the `withdrawFromDeposit` function call",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2021/07/fei-tribechief/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2021/07/fei-tribechief/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0005"
+  },
+  {
+    "title": "Yearn: Re-entrancy attack during deposit",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2021/05/pooltogether-sushi-and-yearn-v2-yield-sources/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2021/05/pooltogether-sushi-and-yearn-v2-yield-sources/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0006"
+  },
+  {
+    "title": "zNS - Domain bid might be approved by non owner account",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2021/05/zer0-zns/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2021/05/zer0-zns/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0007"
+  },
+  {
+    "title": "RocketDaoNodeTrusted - DAO takeover during deployment/bootstrapping",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2021/04/rocketpool/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2021/04/rocketpool/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0008"
+  },
+  {
+    "title": "RocketTokenRETH - sandwiching opportunity on price updates",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2021/04/rocketpool/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2021/04/rocketpool/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0009"
+  },
+  {
+    "title": "RocketDaoNodeTrustedActions - Incomplete implementation of member challenge process",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2021/04/rocketpool/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2021/04/rocketpool/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0010"
+  },
+  {
+    "title": "RocketDAOProtocolSettings/RocketDAONodeTrustedSettings - anyone can set/overwrite settings until contract is declared \"deployed\"",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2021/04/rocketpool/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2021/04/rocketpool/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0011"
+  },
+  {
+    "title": "RocketStorage - anyone can set/update values before the contract is initialized",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2021/04/rocketpool/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2021/04/rocketpool/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0012"
+  },
+  {
+    "title": "Winning pods can be frontrun with large deposits",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2021/03/pooltogether-pods/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2021/03/pooltogether-pods/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0013"
+  },
+  {
+    "title": "Token transfers may return `false`",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2021/03/pooltogether-pods/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2021/03/pooltogether-pods/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0014"
+  },
+  {
+    "title": "`TokenDrop`: Unprotected `initialize()` function",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2021/03/pooltogether-pods/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2021/03/pooltogether-pods/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0015"
+  },
+  {
+    "title": "Pod: Re-entrancy during deposit or withdrawal can lead to stealing funds",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2021/03/pooltogether-pods/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2021/03/pooltogether-pods/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0016"
+  },
+  {
+    "title": "Random task execution",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2021/03/defi-saver/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2021/03/defi-saver/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0017"
+  },
+  {
+    "title": "Anyone can win all the funds from the `LiquidityMining` without investing any DAI",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2021/03/bridge-mutual/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2021/03/bridge-mutual/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0018"
+  },
+  {
+    "title": "Anyone is able to mint NFTs by calling `mintNFTsForLM`",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2021/03/bridge-mutual/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2021/03/bridge-mutual/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0019"
+  },
+  {
+    "title": "Liquidity providers can create deficit of DAI tokens",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2021/03/bridge-mutual/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2021/03/bridge-mutual/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0020"
+  },
+  {
+    "title": "Profit and loss distribution mechanism is not working",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2021/03/bridge-mutual/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2021/03/bridge-mutual/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0021"
+  },
+  {
+    "title": "A liquidity provider can withdraw all his funds anytime",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2021/03/bridge-mutual/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2021/03/bridge-mutual/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0022"
+  },
+  {
+    "title": "Re-entrancy issue for ERC1155",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2021/03/bridge-mutual/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2021/03/bridge-mutual/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0023"
+  },
+  {
+    "title": "The `buyPolicyFor`/`addLiquidityFor` should transfer funds from `msg.sender`",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2021/03/bridge-mutual/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2021/03/bridge-mutual/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0024"
+  },
+  {
+    "title": "Token approvals can be stolen in `DAOfiV1Router01.addLiquidity()`",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2021/02/daofi/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2021/02/daofi/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0025"
+  },
+  {
+    "title": "The deposit of a new pair can be stolen",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2021/02/daofi/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2021/02/daofi/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0026"
+  },
+  {
+    "title": "Users can withdraw their funds immediately when they are over-leveraged",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2021/02/definer/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2021/02/definer/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0027"
+  },
+  {
+    "title": "`GenesisGroup.commit` overwrites previously-committed values",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2021/01/fei-protocol/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2021/01/fei-protocol/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0028"
+  },
+  {
+    "title": "Purchasing and committing still possible after launch",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2021/01/fei-protocol/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2021/01/fei-protocol/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0029"
+  },
+  {
+    "title": "[Out of Scope] ReferralFeeReceiver - anyone can steal all the funds that belong to ReferralFeeReceiver",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2020/12/1inch-liquidity-protocol/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2020/12/1inch-liquidity-protocol/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0030"
+  },
+  {
+    "title": "GovernanceMothership - `notifyFor` allows to arbitrarily create new or override other users stake in governance modules",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2020/12/1inch-liquidity-protocol/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2020/12/1inch-liquidity-protocol/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0031"
+  },
+  {
+    "title": "PeriodicPrizeStrategy - RNG failure can lock user funds",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2020/11/pooltogether-lootbox-and-multiplewinners-strategy/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2020/11/pooltogether-lootbox-and-multiplewinners-strategy/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0032"
+  },
+  {
+    "title": "LootBox - Unprotected selfdestruct in proxy implementation",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2020/11/pooltogether-lootbox-and-multiplewinners-strategy/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2020/11/pooltogether-lootbox-and-multiplewinners-strategy/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0033"
+  },
+  {
+    "title": "Owners can never be removed",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2020/11/paxos/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2020/11/paxos/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0034"
+  },
+  {
+    "title": "Oracle updates can be manipulated to perform atomic front-running attack",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2020/06/bancor-v2-amm-security-audit/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2020/06/bancor-v2-amm-security-audit/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0035"
+  },
+  {
+    "title": "`ERC1400ERC20` whitelist circumvents partition restrictions",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2020/06/codefi-erc1400-assessment/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2020/06/codefi-erc1400-assessment/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0036"
+  },
+  {
+    "title": "Certificate controllers do not always constrain the last argument",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2020/06/codefi-erc1400-assessment/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2020/06/codefi-erc1400-assessment/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0037"
+  },
+  {
+    "title": "Salt-based certificate controller is subject to signature replay",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2020/06/codefi-erc1400-assessment/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2020/06/codefi-erc1400-assessment/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0038"
+  },
+  {
+    "title": "A reverting fallback function will lock up all payouts",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2020/05/lien-protocol/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2020/05/lien-protocol/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0039"
+  },
+  {
+    "title": "Exchange - CancelOrder has no effect",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2020/05/mcdex-mai-protocol-v2/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2020/05/mcdex-mai-protocol-v2/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0040"
+  },
+  {
+    "title": "CPM token price is susceptible to manipulation",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2020/05/aave-cpm-price-provider/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2020/05/aave-cpm-price-provider/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0041"
+  },
+  {
+    "title": "`TokenStaking.recoverStake` allows instant stake undelegation",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2020/02/thesis-tbtc-and-keep/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2020/02/thesis-tbtc-and-keep/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0042"
+  },
+  {
+    "title": "Improper length validation in BLS signature library allows RNG manipulation",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2020/02/thesis-tbtc-and-keep/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2020/02/thesis-tbtc-and-keep/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0043"
+  },
+  {
+    "title": "tbtc - the tecdsa keep is never closed, signer bonds are not released",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2020/02/thesis-tbtc-and-keep/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2020/02/thesis-tbtc-and-keep/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0044"
+  },
+  {
+    "title": "tbtc - No access control in `TBTCSystem.requestNewKeep`",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2020/02/thesis-tbtc-and-keep/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2020/02/thesis-tbtc-and-keep/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0045"
+  },
+  {
+    "title": "Users can burn delegated tokens using re-entrancy attack",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2020/01/skale-token/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2020/01/skale-token/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0046"
+  },
+  {
+    "title": "`uint` overflow may lead to stealing funds",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2020/01/skale-token/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2020/01/skale-token/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0047"
+  },
+  {
+    "title": "`Merkle.checkMembership` allows existence proofs for the same leaf in multiple locations in the tree",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2020/01/omisego-morevp/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2020/01/omisego-morevp/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0048"
+  },
+  {
+    "title": "`safeRagequit` makes you lose funds",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2020/01/the-lao/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2020/01/the-lao/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0049"
+  },
+  {
+    "title": "Creating proposal is not trustless",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2020/01/the-lao/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2020/01/the-lao/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0050"
+  },
+  {
+    "title": "Emergency processing can be blocked",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2020/01/the-lao/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2020/01/the-lao/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0051"
+  },
+  {
+    "title": "`TimeLock` spam prevention can be bypassed",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2019/12/dandelion-organizations/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2019/12/dandelion-organizations/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0052"
+  },
+  {
+    "title": "FAIR can be stolen using ERC-777 hooks",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2019/11/fairmint-continuous-securities-offering/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2019/11/fairmint-continuous-securities-offering/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0053"
+  },
+  {
+    "title": "Staking node can be inappropriately removed from the tree",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2019/11/orchid-network-protocol/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2019/11/orchid-network-protocol/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0054"
+  },
+  {
+    "title": "in3-server - amplified DDoS on incubed requests on proof with signature",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2019/09/slock.it-incubed3/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2019/09/slock.it-incubed3/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0055"
+  },
+  {
+    "title": "BlockProof - Node conviction race condition may trick all but one node into losing funds",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2019/09/slock.it-incubed3/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2019/09/slock.it-incubed3/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0056"
+  },
+  {
+    "title": "`NodeRegistry` Front-running attack on `convict()`",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2019/09/slock.it-incubed3/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2019/09/slock.it-incubed3/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0057"
+  },
+  {
+    "title": "Memory corruption in `Buffer`",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2019/03/ens-permanent-registrar/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2019/03/ens-permanent-registrar/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0058"
+  },
+  {
+    "title": "`SimplePriceOracle.price` is susceptible to integer overflow",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2019/03/ens-permanent-registrar/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2019/03/ens-permanent-registrar/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0059"
+  },
+  {
+    "title": "`ETHRegistrarController.register` is vulnerable to front running",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2019/03/ens-permanent-registrar/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2019/03/ens-permanent-registrar/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0060"
+  },
+  {
+    "title": "FlasherFTM - Unsolicited invocation of the callback (CREAM auth bypass)",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2022/03/fuji-protocol/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2022/03/fuji-protocol/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0061"
+  },
+  {
+    "title": "Incorrect Final Block Number Can Be Finalized",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2024/01/linea-contracts-update/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2024/01/linea-contracts-update/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0062"
+  },
+  {
+    "title": "Finalization Fails for the First Batch of Data Submitted After Migration to the Updated Contract",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2024/01/linea-contracts-update/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2024/01/linea-contracts-update/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0063"
+  },
+  {
+    "title": "An Attacker Can Flood the Support by Creating Many Tickets for Arbitrary Addresses",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2023/12/web3-tickets/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2023/12/web3-tickets/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0064"
+  },
+  {
+    "title": "Broken Authorization Scheme",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2023/12/web3-tickets/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2023/12/web3-tickets/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0065"
+  },
+  {
+    "title": "Any Website Connected to the Snap Can Access the Address and API Key and Impersonate the User",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2023/12/web3-tickets/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2023/12/web3-tickets/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0066"
+  },
+  {
+    "title": "Markdown and Control Character Injection",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2023/08/metamask/partner-snaps-filsnap/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2023/08/metamask/partner-snaps-filsnap/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0067"
+  },
+  {
+    "title": "Directly Exposed Private Key Export",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2023/08/metamask/partner-snaps-filsnap/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2023/08/metamask/partner-snaps-filsnap/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0068"
+  },
+  {
+    "title": "RPC `eth_signMessage` Allows Linked Dapps to Sign Messages With Any Wallet Account and W/O Explicit User Consent",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2023/07/metamask/partner-snaps-shapeshift-snap/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2023/07/metamask/partner-snaps-shapeshift-snap/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0069"
+  },
+  {
+    "title": "Bridge Token Would Be Locked and Cannot Bridge to Native Token",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2023/06/linea-canonical-token-bridge/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2023/06/linea-canonical-token-bridge/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0070"
+  },
+  {
+    "title": "No Proper Trusted Setup",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2023/06/linea-plonk-verifier/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2023/06/linea-plonk-verifier/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0071"
+  },
+  {
+    "title": "Broken Lagrange Polynomial Evaluation at Zeta",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2023/06/linea-plonk-verifier/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2023/06/linea-plonk-verifier/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0072"
+  },
+  {
+    "title": "Broken Logic for Modular Multiplicative Inverse",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2023/06/linea-plonk-verifier/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2023/06/linea-plonk-verifier/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0073"
+  },
+  {
+    "title": "Missing Verifying Paring Check Result",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2023/06/linea-plonk-verifier/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2023/06/linea-plonk-verifier/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0074"
+  },
+  {
+    "title": "Gas Greifing and Missing Return Status Check for `staticcall`(s), May Lead to Unexpected Outcomes",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2023/06/linea-plonk-verifier/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2023/06/linea-plonk-verifier/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0075"
+  },
+  {
+    "title": "`addPremium` – A Back Runner May Cause an Insurance Holder to Lose Their Refunds by Calling `addPremium` Right After the Original Call",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2023/05/tidal/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2023/05/tidal/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0076"
+  },
+  {
+    "title": "`refund` – Attacker Can Lock Insurance Holder's Refunds by Calling `refund` Before a Refund Was Allocated",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2023/05/tidal/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2023/05/tidal/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0077"
+  },
+  {
+    "title": "`addTidal`, `_updateUserTidal`, `withdrawTidal` – Wrong Arithmetic Calculations",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2023/05/tidal/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2023/05/tidal/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0078"
+  },
+  {
+    "title": "InfinityPool Contract Authorization Bypass Attack",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2023/04/glif-filecoin-infinitypool/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2023/04/glif-filecoin-infinitypool/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0079"
+  },
+  {
+    "title": "Oracle's `_sanityCheck` for prices will not work with slashing",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2022/11/geodefi/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2022/11/geodefi/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0080"
+  },
+  {
+    "title": "Multiple calculation mistakes in the `_findPricesClearBuffer` function",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "/diligence/audits/2022/11/geodefi/",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://consensys.net//diligence/audits/2022/11/geodefi/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0081"
+  },
+  {
+    "title": "6.1 Adjusted Bias Measured Possibly Too Late",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "ChainSecurity/Smart-Contract-Audit_StakeDao_Bribe_Platform_-ChainSecurity.pdf",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://chainsecurity.com/wp-content/uploads/2023/03/Smart-Contract-Audit_StakeDao_Bribe_Platform_-ChainSecurity.pdf"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0082"
+  },
+  {
+    "title": "6.1 Signatures Are Valid for Any Address",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "ChainSecurity/Polymarket-Exchange-Smart-Contract-audit-by-ChainSecurity-1.pdf",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://chainsecurity.com/wp-content/uploads/2023/01/Polymarket-Exchange-Smart-Contract-audit-by-ChainSecurity-1.pdf"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0083"
+  },
+  {
+    "title": "6.2 ORDER_TYPEHASH Is Incorrect",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "ChainSecurity/Polymarket-Exchange-Smart-Contract-audit-by-ChainSecurity-1.pdf",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://chainsecurity.com/wp-content/uploads/2023/01/Polymarket-Exchange-Smart-Contract-audit-by-ChainSecurity-1.pdf"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0084"
+  },
+  {
+    "title": "6.1 LPYCRV Outputs Not Transferred to User",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "ChainSecurity/ChainSecurity_Yearn_yCRV_and_ZapYCRV_audit.pdf",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://chainsecurity.com/wp-content/uploads/2022/10/ChainSecurity_Yearn_yCRV_and_ZapYCRV_audit.pdf"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0085"
+  },
+  {
+    "title": "6.2 Chainlink Oracle Returns Empty Prices",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "ChainSecurity/ChainSecurity_Mellow_Finance_Mellow_Vaults_audit.pdf",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://chainsecurity.com/wp-content/uploads/2022/08/ChainSecurity_Mellow_Finance_Mellow_Vaults_audit.pdf"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0086"
+  },
+  {
+    "title": "6.4 Missing Access Control in UniV3Oracle",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "ChainSecurity/ChainSecurity_Mellow_Finance_Mellow_Vaults_audit.pdf",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://chainsecurity.com/wp-content/uploads/2022/08/ChainSecurity_Mellow_Finance_Mellow_Vaults_audit.pdf"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0087"
+  },
+  {
+    "title": "6.1 Unchecked VaultManager Address",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "ChainSecurity/ChainSecurity_Angle_Angle_Borrowing_Module_audit.pdf",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://chainsecurity.com/wp-content/uploads/2022/05/ChainSecurity_Angle_Angle_Borrowing_Module_audit.pdf"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0088"
+  },
+  {
+    "title": "7.1 Draining All Ether Provisions of Mangrove",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "ChainSecurity/ChainSecurity_Giry_Mangrove_audit_220511.pdf",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://chainsecurity.com/wp-content/uploads/2022/03/ChainSecurity_Giry_Mangrove_audit_220511.pdf"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0089"
+  },
+  {
+    "title": "6.1 Unprotected Escrow Funds",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "ChainSecurity/ChainSecurity_MakerDAO_StarkNet-DAI-Bridge_audit.pdf",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://chainsecurity.com/wp-content/uploads/2021/12/ChainSecurity_MakerDAO_StarkNet-DAI-Bridge_audit.pdf"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0090"
+  },
+  {
+    "title": "6.1 Anyone Can Disable TUSD Market",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "ChainSecurity/ChainSecurity_Compound_cToken_audit.pdf",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://chainsecurity.com/wp-content/uploads/2021/12/ChainSecurity_Compound_cToken_audit.pdf"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0091"
+  },
+  {
+    "title": "6.1 onTokenTransfer Wrong Accounting",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "ChainSecurity/ChainSecurity_POA_Network_SBC_Deposit_Smart-Contract-audit_-October-1st-2021.pdf",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://chainsecurity.com/wp-content/uploads/2021/10/ChainSecurity_POA_Network_SBC_Deposit_Smart-Contract-audit_-October-1st-2021.pdf"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0092"
+  },
+  {
+    "title": "6.1 Reentrancy Can Drain Money",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "ChainSecurity/ChainSecurity_HOPRNet_Payment_Channel_audit.pdf",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://chainsecurity.com/wp-content/uploads/2021/10/ChainSecurity_HOPRNet_Payment_Channel_audit.pdf"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0093"
+  },
+  {
+    "title": "6.2 CurvePriveProvider Uses the Spot Price",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "ChainSecurity/Smart-Contract-Audit-Silo_Finance_Curve__Convex_Feature-ChainSecurity.pdf",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://chainsecurity.com/wp-content/uploads/2023/04/Smart-Contract-Audit-Silo_Finance_Curve__Convex_Feature-ChainSecurity.pdf"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0094"
+  },
+  {
+    "title": "6.1 Outdated Interfaces",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "ChainSecurity/ChainSecurity_MakerDAO_zkSync_DAI_Bridge_audit.pdf",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://chainsecurity.com/wp-content/uploads/2023/08/ChainSecurity_MakerDAO_zkSync_DAI_Bridge_audit.pdf"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0095"
+  },
+  {
+    "title": "Slashing mechanism grants exponentially more rewards than expected",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/uma-dvm-2-0-audit",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/uma-dvm-2-0-audit/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0096"
+  },
+  {
+    "title": "Operators are implicitly trusted",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/freeverse-audit",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/freeverse-audit/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0097"
+  },
+  {
+    "title": "Slow relays on multiple chains",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/uma-across-v2-audit",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/uma-across-v2-audit/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0098"
+  },
+  {
+    "title": "\\[C01\\] Deposit manipulation \\[core\\]",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/eth-foundation-account-abstraction-audit",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/eth-foundation-account-abstraction-audit/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0099"
+  },
+  {
+    "title": "Anyone can steal money from other suppliers in TUSD market by creating negative interest rates",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/compound-comprehensive-protocol-audit",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/compound-comprehensive-protocol-audit/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0100"
+  },
+  {
+    "title": "Context",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/compound-comprehensive-protocol-audit",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/compound-comprehensive-protocol-audit/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0101"
+  },
+  {
+    "title": "The TUSD market case",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/compound-comprehensive-protocol-audit",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/compound-comprehensive-protocol-audit/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0102"
+  },
+  {
+    "title": "\\[C01\\] Cannot dispute invalid reward",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/uma-audit-phase-6",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/uma-audit-phase-6/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0103"
+  },
+  {
+    "title": "\\[C02\\] Repeatedly resolve proposals",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/uma-audit-phase-6",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/uma-audit-phase-6/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0104"
+  },
+  {
+    "title": "\\[C01\\] Trapped Proposer Reward",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/uma-audit-l2-bridges",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/uma-audit-l2-bridges/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0105"
+  },
+  {
+    "title": "[](https://github.com/alexbehrens/optimismc01-possible-state-manipulation-after-execution-of-transactions-with-invalid-gas-limit)\\[C01\\] Possible state manipulation after execution of transactions with invalid gas limit",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/optimism-smart-contracts-audit",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/optimism-smart-contracts-audit/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0106"
+  },
+  {
+    "title": "[](https://github.com/alexbehrens/optimismc02-partially-shared-keys-with-extension-nodes-mishandled)\\[C02\\] Partially shared keys with EXTENSION nodes mishandled",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/optimism-smart-contracts-audit",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/optimism-smart-contracts-audit/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0107"
+  },
+  {
+    "title": "[](https://github.com/alexbehrens/optimismc03-unbounded-nuisance-gas)\\[C03\\] Unbounded nuisance gas",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/optimism-smart-contracts-audit",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/optimism-smart-contracts-audit/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0108"
+  },
+  {
+    "title": "[](https://github.com/alexbehrens/optimismc04-valid-l1-to-l2-queue-transactions-may-be-proven-fraudulent-spoofing-queue-origin)\\[C04\\] Valid L1-to-L2 queue transactions may be proven fraudulent spoofing queue origin",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/optimism-smart-contracts-audit",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/optimism-smart-contracts-audit/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0109"
+  },
+  {
+    "title": "\\[C01\\] Attacker can steal a portion of the reward tokens and accrued yield",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/origin-dollar-audit",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/origin-dollar-audit/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0110"
+  },
+  {
+    "title": "\\[C01\\] Instant withdrawals can disable essential vault functionality",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/ribbon-finance-audit",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/ribbon-finance-audit/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0111"
+  },
+  {
+    "title": "\\[C01\\] Protocol does not support token decimals",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/fei-audit-2",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/fei-audit-2/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0112"
+  },
+  {
+    "title": "Exchanging FEI on the `ReserveStabilizer`",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/fei-audit-2",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/fei-audit-2/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0113"
+  },
+  {
+    "title": "Purchasing on the `BondingCurve`",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/fei-audit-2",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/fei-audit-2/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0114"
+  },
+  {
+    "title": "Other examples",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/fei-audit-2",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/fei-audit-2/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0115"
+  },
+  {
+    "title": "\\[C01\\] Protocol allows non-existent loanable value as Senior Bond gain",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/barnbridge-smart-yield-bonds-audit",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/barnbridge-smart-yield-bonds-audit/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0116"
+  },
+  {
+    "title": "\\[C01\\] Anyone can steal all the `TRIBE` tokens from the reward pool",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/fei-protocol-audit",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/fei-protocol-audit/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0117"
+  },
+  {
+    "title": "\\[C02\\] ETH can get stuck in the `GenesisGroup` contract",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/fei-protocol-audit",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/fei-protocol-audit/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0118"
+  },
+  {
+    "title": "\\[C03\\] Anyone can partially bypass the `FEI` sell penalty to earn a profit",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/fei-protocol-audit",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/fei-protocol-audit/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0119"
+  },
+  {
+    "title": "\\[C04\\] Users can claim unreleased rewards or have their funds locked",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/fei-protocol-audit",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/fei-protocol-audit/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0120"
+  },
+  {
+    "title": "\\[C05\\] Anyone with enough liquidity to reach the `maxGenesisPrice` can make profit from genesis",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/fei-protocol-audit",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/fei-protocol-audit/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0121"
+  },
+  {
+    "title": "\\[C01\\]\\[Fixed\\] An attacker can steal all the collateral assets",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/opyn-gamma-protocol-audit",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/opyn-gamma-protocol-audit/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0122"
+  },
+  {
+    "title": "\\[C01\\] Miscalculation of payout in `settle`",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/mcdex-mai-fund-protocol-audit",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/mcdex-mai-fund-protocol-audit/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0123"
+  },
+  {
+    "title": "\\[C01\\] Governance restrictions can be bypassed",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/endaoment-audit",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/endaoment-audit/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0124"
+  },
+  {
+    "title": "\\[C02\\] Fees are wrongly calculated",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/endaoment-audit",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/endaoment-audit/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0125"
+  },
+  {
+    "title": "\\[C01\\] A malicious delegator can permanently lock all stake and rewards for a victim service provider and all of its honest delegators",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/audius-contracts-audit",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/audius-contracts-audit/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0126"
+  },
+  {
+    "title": "\\[C02\\] Updating or removing a service type causes critical accounting errors",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/audius-contracts-audit",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/audius-contracts-audit/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0127"
+  },
+  {
+    "title": "\\[C03\\] Proxy admin doesn’t entirely cede upgrade control to governance address",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/audius-contracts-audit",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/audius-contracts-audit/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0128"
+  },
+  {
+    "title": "\\[C01\\] Anyone can steal funds from the Option contract before they are used",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/primitive-audit",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/primitive-audit/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0129"
+  },
+  {
+    "title": "\\[C02\\] Issued options might not be backed by underlying assets",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/primitive-audit",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/primitive-audit/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0130"
+  },
+  {
+    "title": "\\[C03\\] Deposited funds can be stolen or lost due to transaction ordering",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/primitive-audit",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/primitive-audit/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0131"
+  },
+  {
+    "title": "\\[C01\\] Anyone can liquidate on behalf of another account",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/mcdex-mai-protocol-audit",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/mcdex-mai-protocol-audit/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0132"
+  },
+  {
+    "title": "\\[C02\\] Orders cannot be cancelled",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/mcdex-mai-protocol-audit",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/mcdex-mai-protocol-audit/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0133"
+  },
+  {
+    "title": "\\[C01\\] Supply is manipulable",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/pooltogether-pods-audit",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/pooltogether-pods-audit/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0134"
+  },
+  {
+    "title": "\\[C01\\] Anyone can register backdoored wallets for any owner in GnosisSafeRegistry contract",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/augur-core-v2-audit-components",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/augur-core-v2-audit-components/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0135"
+  },
+  {
+    "title": "\\[C01\\] All CASH tokens approved to Augur can be emptied",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/augur-core-v2-audit",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/augur-core-v2-audit/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0136"
+  },
+  {
+    "title": "**\\[C02\\] CASH tokens can be stolen from the Market contract**",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/augur-core-v2-audit",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/augur-core-v2-audit/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0137"
+  },
+  {
+    "title": "\\[C03\\] Anyone can remove all market’s dispute crowdsourcers",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/augur-core-v2-audit",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/augur-core-v2-audit/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0138"
+  },
+  {
+    "title": "\\[C04\\] DisputeCrowdsourcer contract does not allow for the purchase of overload tokens once its size is filled",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/augur-core-v2-audit",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/augur-core-v2-audit/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0139"
+  },
+  {
+    "title": "\\[C05\\] Unfillable orders can be placed to constrain or halt markets",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/augur-core-v2-audit",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/augur-core-v2-audit/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0140"
+  },
+  {
+    "title": "\\[C06\\] Affiliate’s fees can be withdrawn in an invalid, finalized Market",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/augur-core-v2-audit",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/augur-core-v2-audit/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0141"
+  },
+  {
+    "title": "\\[C07\\] All dispute bonds can be held hostage or permanently frozen when a Market is in a forking universe",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/augur-core-v2-audit",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/augur-core-v2-audit/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0142"
+  },
+  {
+    "title": "\\[C08\\] Fork reputation goal threshold can be decreased during fork",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/augur-core-v2-audit",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/augur-core-v2-audit/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0143"
+  },
+  {
+    "title": "\\[C01\\]\\[Fixed\\] Malicious users could steal from the OptionsContract contract",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/opyn-contracts-audit",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/opyn-contracts-audit/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0144"
+  },
+  {
+    "title": "\\[C01\\] Users can steal funds",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/aave-protocol-audit",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/aave-protocol-audit/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0145"
+  },
+  {
+    "title": "\\[C02\\] Borrowers can avoid liquidation",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/aave-protocol-audit",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/aave-protocol-audit/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0146"
+  },
+  {
+    "title": "\\[C03\\] Deposits not marked as collateral can still be liquidated",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/aave-protocol-audit",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/aave-protocol-audit/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0147"
+  },
+  {
+    "title": "\\[C04\\] Rogue borrower can manipulate other account’s borrow balance",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/aave-protocol-audit",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/aave-protocol-audit/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0148"
+  },
+  {
+    "title": "\\[C05\\] Loans of Ether cannot be repaid",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/aave-protocol-audit",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/aave-protocol-audit/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0149"
+  },
+  {
+    "title": "Critical",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/eco-contracts-audit",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/eco-contracts-audit/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0150"
+  },
+  {
+    "title": "\\[C01\\] Any Selected Validator can Permanently DoS Reward Payouts",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/props-rewards-engine-contracts-audit",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/props-rewards-engine-contracts-audit/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0151"
+  },
+  {
+    "title": "Anybody can mint DebtToken",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/dharma-audit-2f1386455688",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/dharma-audit-2f1386455688/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0152"
+  },
+  {
+    "title": "Centralized issuance, requires trust in US government",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/us-dollar-audit-90dbcbb0258f",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/us-dollar-audit-90dbcbb0258f/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0153"
+  },
+  {
+    "title": "Not backed by any physical asset",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/us-dollar-audit-90dbcbb0258f",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/us-dollar-audit-90dbcbb0258f/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0154"
+  },
+  {
+    "title": "Tokens burning breaks MigrationAgent contract",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/qiibee-token-audit-b19c03262f99",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/qiibee-token-audit-b19c03262f99/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0155"
+  },
+  {
+    "title": "Migration bypasses vesting restrictions",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/qiibee-token-audit-b19c03262f99",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/qiibee-token-audit-b19c03262f99/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0156"
+  },
+  {
+    "title": "Unbounded loops",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/fiinu-token-audit-c62ecbf63ad1",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/fiinu-token-audit-c62ecbf63ad1/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0157"
+  },
+  {
+    "title": "Delayed price increase after target amount raised",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/fiinu-token-audit-c62ecbf63ad1",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/fiinu-token-audit-c62ecbf63ad1/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0158"
+  },
+  {
+    "title": "Team can circumvent refund restriction",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/global-messaging-token-audit-865e6a821cd8",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/global-messaging-token-audit-865e6a821cd8/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0159"
+  },
+  {
+    "title": "Leftover presale supply can be left unrecoverable",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/fuel-token-audit-30cc02f257f5",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/fuel-token-audit-30cc02f257f5/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0160"
+  },
+  {
+    "title": "Revoking a vesting grant takes vested tokens away",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/kin-token-audit-121788c06fe",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/kin-token-audit-121788c06fe/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0161"
+  },
+  {
+    "title": "Useless Assertion Check",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/zksync-bootloader-audit-report",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/zksync-bootloader-audit-report/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0162"
+  },
+  {
+    "title": "Storage collision leads to failure of the system",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/zksync-layer-1-diff-audit",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/zksync-layer-1-diff-audit/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0163"
+  },
+  {
+    "title": "DepositQueue can become permanently locked",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/pods-finance-ethereum-volatility-vault-audit-1",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/pods-finance-ethereum-volatility-vault-audit-1/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0164"
+  },
+  {
+    "title": "Miscounted assets breaking system invariants",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/pods-finance-ethereum-volatility-vault-audit-1",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/pods-finance-ethereum-volatility-vault-audit-1/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0165"
+  },
+  {
+    "title": "The vault can be drained one share at a time",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "OpenZeppelin/pods-finance-ethereum-volatility-vault-audit-1",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://blog.openzeppelin.com/pods-finance-ethereum-volatility-vault-audit-1/"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0166"
+  },
+  {
+    "title": "**6.1.1 An attacker can freeze all incoming deposits and brick the oracle members' reporting system with",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0167"
+  },
+  {
+    "title": "6.1.2 Operators._hasFundableKeysreturnstruefor operators that do not have fundable keys",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0168"
+  },
+  {
+    "title": "**6.1.3** OperatorsRegistry._getNextValidatorsFromActiveOperators **can DOS Alluvial staking if there's an",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0169"
+  },
+  {
+    "title": "5.1.1 Lack oftransferIdVerification Allows an Attacker to Front-Run Bridge Transfers",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0170"
+  },
+  {
+    "title": "5.1.2 Use of spot dex price when repay portal debt leads to sandwich attacks",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0171"
+  },
+  {
+    "title": "5.1.3 swapOutallows overwrite of token balance",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0172"
+  },
+  {
+    "title": "5.1.4 Use of spot price inSponsorVaultleads to sandwich attack.",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0173"
+  },
+  {
+    "title": "5.1.1 Important Balancer fields can be overwritten byEndTime.",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0174"
+  },
+  {
+    "title": "5.1.2 sweepfunction should prevent Treasury from withdrawing pool’s BPTs",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0175"
+  },
+  {
+    "title": "5.1.1 Wrong P2P exchange rate calculation",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0176"
+  },
+  {
+    "title": "5.1.2 MatchingEngineForAave is using the wrong totalSupply in updateBorrowers",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0177"
+  },
+  {
+    "title": "5.1.3 RewardsManagerAave does not verify token addresses",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0178"
+  },
+  {
+    "title": "**3.1.1 Clones with malicious** extradata **are also considered valid clones**",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0179"
+  },
+  {
+    "title": "5.1.1 MintPerpetualYieldTokensfor free by self-transfer",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0180"
+  },
+  {
+    "title": "5.1.1 Pool token price is incorrect when there is more than one pending upkeep",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0181"
+  },
+  {
+    "title": "**5.1.1** LienToken.transferFrom **does not update a public vault's bookkeeping parameters when a lien is",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0182"
+  },
+  {
+    "title": "5.1.3 Collateral owner can steal funds by taking liens while asset is listed for sale on Seaport",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0183"
+  },
+  {
+    "title": "5.1.4 validateStack allows any stack to be used with collateral with no liens",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0184"
+  },
+  {
+    "title": "5.1.6 Phony signatures can be used to forge any strategy",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0185"
+  },
+  {
+    "title": "5.1.1 OrderBook Denial of Service leveraging blacklistable tokens like USDC",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0186"
+  },
+  {
+    "title": "**5.1.2 Overflow in** SegmentedSegmentTree",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0187"
+  },
+  {
+    "title": "5.1.3 OrderNFT theft due to controlling future and past tokens of same order index",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0188"
+  },
+  {
+    "title": "5.1.4 OrderNFT theft due to ambiguoustokenIdencoding/decoding scheme",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0189"
+  },
+  {
+    "title": "**7.1.1 A malicious user could DOS a vesting schedule by sending only** 1 wei **of** TLC **to the vesting escrow",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0190"
+  },
+  {
+    "title": "5.1.1 The Protocol owner can drain users' currency tokens",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0191"
+  },
+  {
+    "title": "**5.1.1 Side effects of LTV = 0 assets: Morpho's users will not be able to withdraw (collateral and \"pure\"",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0192"
+  },
+  {
+    "title": "**5.1.2 Morpho is vulnerable to attackers sending** LTV = 0 **collateral tokens, supply/supplyCollateral, bor-",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0193"
+  },
+  {
+    "title": "**5.1.3 Morpho is not correctly handling the asset price in** _getAssetPrice **when** isInEMode == true **but**",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0194"
+  },
+  {
+    "title": "5.1.4 Isolated assets are treated as collateral in Morpho",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0195"
+  },
+  {
+    "title": "**6.1.1** _pickNextValidatorsToExitFromActiveOperators **uses the wrong index to query stopped validator",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0196"
+  },
+  {
+    "title": "6.1.2 Oracles' reports votes are not stored in storage",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0197"
+  },
+  {
+    "title": "5.1.1 ThecastApprovalBySigandcastDisapprovalBySigfunctions can revert",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0198"
+  },
+  {
+    "title": "5.1.2 ThecastApproval/castDisapprovaldoesn't check ifroleparameter is theapprovalRole",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0199"
+  },
+  {
+    "title": "**5.1.1 The extra data (encoded** stack **) provided to advanced orders to** Seaport **are not validated properly",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0200"
+  },
+  {
+    "title": "5.1.2 AstariaRouter.liquidate(...)can be called multiple times for an expired lien/stack",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0201"
+  },
+  {
+    "title": "5.1.1 Gas calculation frequently uses unchecked free variables",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0202"
+  },
+  {
+    "title": "5.1.2 Memory alignment malleability",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0203"
+  },
+  {
+    "title": "5.1.3 IncorrectBYTEimplementation",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0204"
+  },
+  {
+    "title": "5.1.4 Test failures inVMTests/vmPerformance/loopExp(potential issue inEXP)",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0205"
+  },
+  {
+    "title": "5.1.5 IncorrectSARimplementation",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0206"
+  },
+  {
+    "title": "5.1.6 Insufficient check about division remainder",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0207"
+  },
+  {
+    "title": "5.1.7 Underconstrained carry value in the binary state machine",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0208"
+  },
+  {
+    "title": "5.1.1 SENDALLzeroes out balance in case receiver equals sender",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0209"
+  },
+  {
+    "title": "5.1.2 opCALLDATALOAD/opCALLDATACOPYreading position out of calldata bounds",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0210"
+  },
+  {
+    "title": "5.1.3 opJUMP/opJUMPIreading position out of code bounds",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0211"
+  },
+  {
+    "title": "5.1.1 Incorrect check for calldata overrun in CALLDATACOPY",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0212"
+  },
+  {
+    "title": "5.1.1 tradingFunctionreturns wrong invariant at bounds, allowing to steal all pool reserves",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0213"
+  },
+  {
+    "title": "5.1.1 Protocol fees are double-counted as registry balance and pool reserve",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0214"
+  },
+  {
+    "title": "5.1.2 LP fees are in WAD instead of token decimal units",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0215"
+  },
+  {
+    "title": "5.1.3 Swaps can be done for free and steal the reserve given large liquidity allocation",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0216"
+  },
+  {
+    "title": "5.1.1 Open ports to the internet",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0217"
+  },
+  {
+    "title": "5.1.1 msg.senderhas to be un-aliased inL2BlastBridge.finalizeBridgeETHDirect().",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0218"
+  },
+  {
+    "title": "5.1.2 L1BlastBridgeuses wrong token order when bridging USD yield tokens",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0219"
+  },
+  {
+    "title": "5.1.3 _delegatecall_uint256_arr_arg_returns_uint256wrong calldata encoding",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0220"
+  },
+  {
+    "title": "5.1.4 Changing yield fromClaimablecause fund loss",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0221"
+  },
+  {
+    "title": "5.1.5 CallingfindCheckpointHints()with_firstIndexas 0 will always revert",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0222"
+  },
+  {
+    "title": "5.1.6 Withdrawing discounted ETH from L2 always fails",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0223"
+  },
+  {
+    "title": "5.1.7 Fund duplication via ERC20 self-transfer",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0224"
+  },
+  {
+    "title": "5.1.8 Message can be passed throughOptimismPortalto maliciously callethYieldManager",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0225"
+  },
+  {
+    "title": "5.1.1 Rewardcalculatesearnedincorrectly on each epoch boundary",
+    "severity": "Critical",
+    "record_type": "audit_finding",
+    "status": "candidate",
+    "source_name": "Smart Contract VulnDB",
+    "project": "spearbit/portfolio",
+    "vulnerability_class": null,
+    "impact": null,
+    "cvss": null,
+    "reward_amount": null,
+    "reward_currency": null,
+    "disclosed": null,
+    "evidence_level": "secondary",
+    "sources": [
+      "https://github.com/spearbit/portfolio"
+    ],
+    "notes": "Critical finding imported as metadata; review original source before promotion.",
+    "case_id": "SCF-0226"
+  }
+]
