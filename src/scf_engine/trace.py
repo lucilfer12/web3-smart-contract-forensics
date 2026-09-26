@@ -127,6 +127,7 @@ def summarize_trace(payload: dict[str, Any]) -> dict[str, Any]:
             for t in transfers
         ],
         "net_token_flows": net_token_flows,
+        "forensic_flags": forensic_flags(payload),
     }
 
 
