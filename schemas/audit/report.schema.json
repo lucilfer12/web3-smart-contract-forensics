@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://web3-smart-contract-forensics.dev/schema/audit-report.json",
+  "title": "SCF Evidence-First Audit Report",
+  "type": "object",
+  "required": ["schema_version","case_id","summary","classification","evidence","verification"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "case_id": {"type":"string","pattern":"^SCF-[0-9]{4}$"},
+    "summary": {
+      "type":"object",
+      "required":["title","executive_summary"],
+      "properties":{
+        "title":{"type":"string","minLength":3},
+        "executive_summary":{"type":"string","minLength":1}
+      }
+    },
+    "classification": {
+      "type":"object",
+      "required":["severity","record_type","status","evidence_level"],
+      "properties":{
+        "severity":{"enum":["Critical","High","Medium","Low","Informational"]},
+        "record_type":{"enum":["audit_finding","bugfix_review","incident"]},
+        "status":{"enum":["candidate","source_verified","analyst_verified","reproduced","corroborated"]},
+        "evidence_level":{"enum":["primary","corroborated","secondary","candidate"]},
+        "vulnerability_class":{"type":["string","null"]},
+        "taxonomy":{"type":"array","items":{"type":"string"}}
+      }
+    },
+    "analysis": {
+      "type":"object",
+      "required":["root_cause","attack_path","preconditions","impact","recommendation"],
+      "properties":{
+        "root_cause":{"type":"string"},
+        "attack_path":{"type":"array","items":{"type":"string"}},
+        "preconditions":{"type":"array","items":{"type":"string"}},
+        "impact":{"type":"string"},
+        "recommendation":{"type":"string"},
+        "affected_components":{"type":"array","items":{"type":"string"}},
+        "assumptions":{"type":"array","items":{"type":"string"}}
+      }
+    },

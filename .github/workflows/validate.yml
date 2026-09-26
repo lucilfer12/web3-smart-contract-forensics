@@ -1,4 +1,4 @@
-name: Validate dataset
+name: Validate security corpus
 
 on:
   push:
@@ -12,4 +12,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.x"
-      - run: python tools/validate_dataset.py
+      - name: Validate legacy dataset
+        run: python tools/validate_dataset.py
+      - name: Regenerate evidence-first audit layer
+        run: python tools/generate_audit_reports.py
+      - name: Validate audit reports
+        run: python tools/validate_audit_reports.py
+      - name: Check clean generated state
+        run: git diff --exit-code -- datasets/audit_reports.json audit-reports
