@@ -54,6 +54,23 @@ A promotion is blocked unless the required evidence classes are present. This pr
 - external.py can invoke Slither when the executable is installed; it is optional.
 - foundry.py runs local Foundry tests and can record controlled reproduction evidence.
 
+## Validation and multi-agent evidence
+
+The engine now has a deterministic validation layer before a finding is promoted:
+
+1. Built-in invariants evaluate machine-checkable safety properties.
+2. Independent agent observations can be submitted with explicit evidence references.
+3. Cross-validation marks each finding as CONFIRMED, REJECTED, or CONFLICT.
+4. Promotion is blocked when deterministic invariants fail or agent evidence conflicts.
+5. Verification state remains separate from confidence; neither static detection nor consensus alone proves exploitability.
+
+CLI:
+
+    python tools/scf.py validate-case case.json
+    python tools/scf.py validate-case case.json --observations-json observations.json
+
+This is an orchestration layer, not a claim that the repository already contains every future symbolic/fuzzing agent.
+
 ## Security model
 
 The HTTP service accepts source text, not arbitrary server filesystem paths. The default CLI server binds to loopback. Reproduction is designed around controlled projects and synthetic or isolated environments.

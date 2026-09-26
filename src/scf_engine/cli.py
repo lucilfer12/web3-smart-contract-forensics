@@ -21,6 +21,7 @@ from .forensics import build_forensic_case, build_forensic_case_without_trace
 from .state import collect_state_snapshot, addresses_from_forensic_case
 from .monitor import latest_block, scan_blocks
 from .economic import value_forensics
+from .pipeline import build_validation_pipeline
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -95,6 +96,11 @@ def build_parser() -> argparse.ArgumentParser:
     m.add_argument("--from-block", type=int)
     m.add_argument("--to-block", type=int)
     m.add_argument("--json", dest="json_path")
+
+    vp = sub.add_parser("validate-case", help="Run deterministic invariants and agent cross-validation")
+    vp.add_argument("case_json")
+    vp.add_argument("--observations-json")
+    vp.add_argument("--json", dest="json_path")
     return parser
 
 
@@ -203,6 +209,20 @@ def main(argv: list[str] | None = None) -> int:
         else:
             print(json.dumps(payload, indent=2))
         return 0
+
+    if args.command == "validate-case":
+        case = json.loads(Path(args.case_json).read_text(encoding="utf-8"))
+        observations = []
+        if args.observations_json:
+            from .cross_validate import AgentObservation
+            raw = json.loads(Path(args.observations_json).read_text(encoding="utf-8"))
+            observations = [AgentObservation(**item) for item in raw]
+        payload = build_validation_pipeline(case, observations)
+        if args.json_path:
+            Path(args.json_path).write_text(json.dumps(payload, indent=2), encoding="utf-8")
+        else:
+            print(json.dumps(payload, indent=2))
+        return 0 if payload["promotion_gate"]["eligible"] else 2
 
     if args.command == "monitor":
         client = RpcClient(args.rpc_url)

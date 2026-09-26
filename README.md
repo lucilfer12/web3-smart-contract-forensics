@@ -48,6 +48,7 @@ Current engine capabilities:
 - Local transaction-trace forensics with nested call reconstruction, delegatecall/value-flow flags and ERC-20 Transfer extraction.
 - Deterministic forensic case objects with address-level token/native flows and explicit FLOW_ONLY economic semantics.
 - Optional evidence-backed economic valuation of observed flows; no automatic profit claims.
+- Deterministic invariants and cross-agent evidence validation with conflict-aware promotion gates.
 - Historical EVM state snapshots for code, balance and selected storage slots at a block tag.
 - FastAPI service for source analysis, knowledge graph queries and transaction/state forensics without exposing arbitrary server filesystem paths.
 - Positive/negative benchmark fixtures and regression tests.
@@ -72,6 +73,7 @@ python tools/scf.py forensics https://rpc.example <tx-hash> --state-block 0x1234
 python tools/scf.py forensics https://rpc.example <tx-hash> --valuation-json valuations.json
 python tools/scf.py state https://rpc.example <address> --block 0x123456 --slot 0x0
 python tools/scf.py monitor https://rpc.example --address 0x... --from-block 123 --to-block 130 --json alerts.json
+python tools/scf.py validate-case case.json --observations-json observations.json
 python tools/scf.py serve --host 127.0.0.1 --port 8000
 ```
 

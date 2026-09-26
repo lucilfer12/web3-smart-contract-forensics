@@ -24,7 +24,9 @@ contract Demo {
 <section class="card"><h2>Findings</h2><div id="findings"></div></section>
 <section class="card"><h2>Transaction Forensics</h2><p class="muted">The local engine can reconstruct a transaction call tree, ERC-20/native flows, forensic flags and optional historical state. Run these commands from the repository:</p><pre>python tools/scf.py forensics &lt;rpc-url&gt; &lt;tx-hash&gt; --json case.json
 python tools/scf.py forensics &lt;rpc-url&gt; &lt;tx-hash&gt; --state-block &lt;block&gt;
-python tools/scf.py state &lt;rpc-url&gt; &lt;address&gt; --block &lt;block&gt; --slot &lt;slot&gt;</pre><p class="small muted">Economic output is FLOW_ONLY unless separate valuation evidence exists. The hosted GitHub Pages UI does not access a user's localhost API; this console is intended for the local engine.</p></section>
+python tools/scf.py state &lt;rpc-url&gt; &lt;address&gt; --block &lt;block&gt; --slot &lt;slot&gt;
+python tools/scf.py monitor &lt;rpc-url&gt; --address &lt;address&gt; --from-block &lt;n&gt; --to-block &lt;n&gt;
+python tools/scf.py validate-case case.json --observations-json observations.json</pre><p class="small muted">Economic output is FLOW_ONLY unless separate valuation evidence exists. Cross-agent conflicts block promotion. The hosted GitHub Pages UI does not access a user's localhost API; this console is intended for the local engine.</p></section>
 <script>
 const source = document.getElementById("source"), status = document.getElementById("status");
 const summary = document.getElementById("summary"), findings = document.getElementById("findings");
