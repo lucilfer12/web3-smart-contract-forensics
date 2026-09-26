@@ -4,6 +4,10 @@ on:
   push:
   pull_request:
 
+permissions:
+  contents: read
+  security-events: write
+
 jobs:
   validate:
     runs-on: ubuntu-latest
@@ -11,7 +15,9 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: "3.x"
+          python-version: "3.12"
+      - name: Install analysis engine
+        run: python -m pip install -r requirements.txt
       - name: Validate legacy dataset
         run: python tools/validate_dataset.py
       - name: Regenerate evidence-first audit layer
@@ -20,3 +26,13 @@ jobs:
         run: python tools/validate_audit_reports.py
       - name: Check clean generated state
         run: git diff --exit-code -- datasets/audit_reports.json audit-reports
+      - name: Run engine tests
+        run: python -m pytest tests/engine tests/unit
+      - name: Run security benchmark
+        run: python tools/benchmark_engine.py
+      - name: Smoke-test CLI and SARIF
+        run: python tools/scf.py analyze fixtures/contracts/vulnerable --sarif scf-results.sarif
+      - name: Upload SARIF results
+        uses: github/codeql-action/upload-sarif@v3
+        with:
+          sarif_file: scf-results.sarif

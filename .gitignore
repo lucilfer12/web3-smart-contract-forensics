@@ -4,3 +4,10 @@ __pycache__/
 .env
 .DS_Store
 Thumbs.db
+# SCF Engine local state and generated artifacts
+.scf/
+artifacts-*.json
+artifacts-*.sarif
+artifacts-*.dot
+artifacts-*.mmd
+bytecode.json

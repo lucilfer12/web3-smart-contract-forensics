@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SCF Engine Console</title><link rel="stylesheet" href="style.css"></head>
+<body><main class="shell">
+<p class="eyebrow">SCF ENGINE 0.4</p><h1>Local Security Analysis Console</h1>
+<p class="lead">Paste Solidity source and send it to the local FastAPI service. The browser UI never uploads code anywhere; the CLI binds to loopback by default.</p>
+<div class="controls"><a class="button secondary" href="index.html">Research corpus</a><button id="analyze" class="button">Analyze source</button></div>
+<label for="source"><strong>Solidity source</strong></label>
+<textarea id="source" rows="24" style="width:100%;box-sizing:border-box;margin-top:8px;font-family:ui-monospace,monospace">pragma solidity ^0.8.20;
+
+contract Demo {
+    mapping(address => uint256) public balance;
+
+    function withdraw(address payable to, uint256 amount) external {
+        require(balance[msg.sender] >= amount);
+        (bool ok,) = to.call{value: amount}("");
+        balance[msg.sender] -= amount;
+        require(ok);
+    }
+}
+</textarea>
+<div id="status" class="status muted"></div>
+<section id="summary" class="grid"></section>
+<section class="card"><h2>Findings</h2><div id="findings"></div></section>
+<script>
+const source = document.getElementById("source"), status = document.getElementById("status");
+const summary = document.getElementById("summary"), findings = document.getElementById("findings");
+document.getElementById("analyze").addEventListener("click", async () => {
+  status.textContent = "Analyzing locally…"; summary.replaceChildren(); findings.replaceChildren();
+  try {
+    const response = await fetch("http://127.0.0.1:8000/analyze/source", {
+      method:"POST", headers:{"Content-Type":"application/json"},
+      body:JSON.stringify({filename:"Browser.sol",source:source.value})
+    });
+    if (!response.ok) throw new Error("API returned " + response.status);
+    const payload = await response.json();
+    Object.entries(payload.summary).forEach(([key,value]) => {
+      if (key === "metrics") return;
+      const card=document.createElement("div"); card.className="card stat";
+      const b=document.createElement("b"); b.textContent=String(value); card.append(b);
+      const m=document.createElement("div"); m.className="muted"; m.textContent=key; card.append(m); summary.append(card);
+    });
+    payload.findings.forEach((item) => {
+      const row=document.createElement("div"); row.className="finding";
+      const title=document.createElement("strong"); title.textContent=item.severity+" · "+item.rule_id+" · "+item.title; row.append(title);
+      const text=document.createElement("p"); text.textContent=item.description; row.append(text);
+      const e=document.createElement("div"); e.className="small muted";
+      e.textContent=(item.evidence||[]).map(x => x.file+":"+x.line+" — "+x.snippet).join(" | "); row.append(e);
+      findings.append(row);
+    });
+    status.textContent = "Analysis complete.";
+  } catch (error) { status.textContent = "Start python tools/scf.py serve on this machine, then retry. " + error; }
+});
+</script></main></body></html>
