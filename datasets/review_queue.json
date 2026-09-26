@@ -1,0 +1,2232 @@
+[
+  {
+    "case_id": "SCF-0170",
+    "review_priority": 4,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [
+      "token",
+      "cross-chain"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0197",
+    "review_priority": 4,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [
+      "oracle",
+      "governance"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0199",
+    "review_priority": 4,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [
+      "validation",
+      "token"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0202",
+    "review_priority": 4,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [
+      "accounting",
+      "validation"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0002",
+    "review_priority": 3,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "access-control",
+      "accounting",
+      "token"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0043",
+    "review_priority": 3,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "oracle",
+      "validation",
+      "signature"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0167",
+    "review_priority": 3,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [
+      "oracle"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0169",
+    "review_priority": 3,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [
+      "dos"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0171",
+    "review_priority": 3,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [
+      "oracle"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0172",
+    "review_priority": 3,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [
+      "accounting"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0173",
+    "review_priority": 3,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [
+      "oracle"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0174",
+    "review_priority": 3,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [
+      "accounting"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0176",
+    "review_priority": 3,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [
+      "accounting"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0180",
+    "review_priority": 3,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [
+      "token"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0181",
+    "review_priority": 3,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [
+      "oracle"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0182",
+    "review_priority": 3,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [
+      "token"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0185",
+    "review_priority": 3,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [
+      "signature"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0186",
+    "review_priority": 3,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [
+      "dos"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0190",
+    "review_priority": 3,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [
+      "dos"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0194",
+    "review_priority": 3,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [
+      "oracle"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0198",
+    "review_priority": 3,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [
+      "token"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0204",
+    "review_priority": 3,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [
+      "upgradeability"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0206",
+    "review_priority": 3,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [
+      "upgradeability"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0207",
+    "review_priority": 3,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [
+      "validation"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0209",
+    "review_priority": 3,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [
+      "accounting"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0212",
+    "review_priority": 3,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [
+      "validation"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0214",
+    "review_priority": 3,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [
+      "accounting"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0218",
+    "review_priority": 3,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [
+      "cross-chain"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0219",
+    "review_priority": 3,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [
+      "cross-chain"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0222",
+    "review_priority": 3,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [
+      "validation"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0224",
+    "review_priority": 3,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [
+      "token"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0225",
+    "review_priority": 3,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [
+      "cross-chain"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0055",
+    "review_priority": 2,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "signature",
+      "dos"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0080",
+    "review_priority": 2,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "oracle",
+      "validation"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0081",
+    "review_priority": 2,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "oracle",
+      "accounting"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0087",
+    "review_priority": 2,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "access-control",
+      "oracle"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0092",
+    "review_priority": 2,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "accounting",
+      "token"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0106",
+    "review_priority": 2,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "oracle",
+      "dos"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0128",
+    "review_priority": 2,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "upgradeability",
+      "governance"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0148",
+    "review_priority": 2,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "oracle",
+      "accounting"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0168",
+    "review_priority": 2,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0175",
+    "review_priority": 2,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0177",
+    "review_priority": 2,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0178",
+    "review_priority": 2,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0179",
+    "review_priority": 2,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0183",
+    "review_priority": 2,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0184",
+    "review_priority": 2,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0187",
+    "review_priority": 2,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0188",
+    "review_priority": 2,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0189",
+    "review_priority": 2,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0191",
+    "review_priority": 2,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0192",
+    "review_priority": 2,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0193",
+    "review_priority": 2,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0195",
+    "review_priority": 2,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0196",
+    "review_priority": 2,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0200",
+    "review_priority": 2,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0201",
+    "review_priority": 2,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0203",
+    "review_priority": 2,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0205",
+    "review_priority": 2,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0208",
+    "review_priority": 2,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0210",
+    "review_priority": 2,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0211",
+    "review_priority": 2,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0213",
+    "review_priority": 2,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0215",
+    "review_priority": 2,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0216",
+    "review_priority": 2,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0217",
+    "review_priority": 2,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0220",
+    "review_priority": 2,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0221",
+    "review_priority": 2,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0223",
+    "review_priority": 2,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0226",
+    "review_priority": 2,
+    "source_count": 1,
+    "reachable_sources": 1,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0001",
+    "review_priority": 1,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "reentrancy"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0003",
+    "review_priority": 1,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "validation"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0005",
+    "review_priority": 1,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "accounting"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0006",
+    "review_priority": 1,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "reentrancy"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0007",
+    "review_priority": 1,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "access-control"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0009",
+    "review_priority": 1,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "oracle"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0010",
+    "review_priority": 1,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "upgradeability"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0012",
+    "review_priority": 1,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "initialization"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0014",
+    "review_priority": 1,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "token"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0015",
+    "review_priority": 1,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "initialization"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0016",
+    "review_priority": 1,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "reentrancy"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0023",
+    "review_priority": 1,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "reentrancy"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0024",
+    "review_priority": 1,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "token"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0025",
+    "review_priority": 1,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "token"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0031",
+    "review_priority": 1,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "governance"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0033",
+    "review_priority": 1,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "upgradeability"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0035",
+    "review_priority": 1,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "oracle"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0036",
+    "review_priority": 1,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "token"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0038",
+    "review_priority": 1,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "signature"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0041",
+    "review_priority": 1,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "oracle"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0044",
+    "review_priority": 1,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "signature"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0045",
+    "review_priority": 1,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "access-control"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0046",
+    "review_priority": 1,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "reentrancy"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0048",
+    "review_priority": 1,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "validation"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0050",
+    "review_priority": 1,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "governance"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0052",
+    "review_priority": 1,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "governance"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0059",
+    "review_priority": 1,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "oracle"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0061",
+    "review_priority": 1,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "reentrancy"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0069",
+    "review_priority": 1,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "cross-chain"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0070",
+    "review_priority": 1,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "cross-chain"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0074",
+    "review_priority": 1,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "validation"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0075",
+    "review_priority": 1,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "validation"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0078",
+    "review_priority": 1,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "accounting"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0083",
+    "review_priority": 1,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "signature"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0085",
+    "review_priority": 1,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "token"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0086",
+    "review_priority": 1,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "oracle"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0088",
+    "review_priority": 1,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "validation"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0093",
+    "review_priority": 1,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "reentrancy"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0094",
+    "review_priority": 1,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "oracle"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0099",
+    "review_priority": 1,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "oracle"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0104",
+    "review_priority": 1,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "governance"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0107",
+    "review_priority": 1,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "accounting"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0121",
+    "review_priority": 1,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "oracle"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0123",
+    "review_priority": 1,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "accounting"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0124",
+    "review_priority": 1,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "governance"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0127",
+    "review_priority": 1,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "accounting"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0151",
+    "review_priority": 1,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "dos"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0158",
+    "review_priority": 1,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "oracle"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0162",
+    "review_priority": 1,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "validation"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0166",
+    "review_priority": 1,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [
+      "accounting"
+    ],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0004",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0008",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0011",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0013",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0017",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0018",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0019",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0020",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0021",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0022",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0026",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0027",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0028",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0029",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0030",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0032",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0034",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0037",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0039",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0040",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0042",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0047",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0049",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0051",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0053",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0054",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0056",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0057",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0058",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0060",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0062",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0063",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0064",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0065",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0066",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0067",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0068",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0071",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0072",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0073",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0076",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0077",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0079",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0082",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0084",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0089",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0090",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0091",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0095",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0096",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0097",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0098",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0100",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0101",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0102",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0103",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0105",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0108",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0109",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0110",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0111",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0112",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0113",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0114",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0115",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0116",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0117",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0118",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0119",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0120",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0122",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0125",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0126",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0129",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0130",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0131",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0132",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0133",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0134",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0135",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0136",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0137",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0138",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0139",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0140",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0141",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0142",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0143",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0144",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0145",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0146",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0147",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0149",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0150",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0152",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0153",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0154",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0155",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0156",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0157",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0159",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0160",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0161",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0163",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0164",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  },
+  {
+    "case_id": "SCF-0165",
+    "review_priority": 0,
+    "source_count": 1,
+    "reachable_sources": 0,
+    "taxonomy": [],
+    "status": "candidate",
+    "reason": "Prioritize human primary-source review; this score is workflow metadata, not severity or confidence."
+  }
+]
