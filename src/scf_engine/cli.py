@@ -20,6 +20,7 @@ from .rpc import RpcClient, collect_transaction, normalize_transaction
 from .forensics import build_forensic_case, build_forensic_case_without_trace
 from .state import collect_state_snapshot, addresses_from_forensic_case
 from .monitor import latest_block, scan_blocks
+from .economic import value_forensics
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -78,6 +79,7 @@ def build_parser() -> argparse.ArgumentParser:
     fs.add_argument("tx_hash")
     fs.add_argument("--no-trace", action="store_true")
     fs.add_argument("--state-block", help="Optional historical block tag for state evidence")
+    fs.add_argument("--valuation-json", help="JSON map of token address/NATIVE to usd_per_raw_unit plus evidence")
     fs.add_argument("--json", dest="json_path")
 
     st = sub.add_parser("state", help="Read historical EVM code, balance and selected storage")
@@ -185,6 +187,9 @@ def main(argv: list[str] | None = None) -> int:
         if args.state_block:
             addresses = addresses_from_forensic_case(case)
             case["state_snapshot"] = collect_state_snapshot(client, addresses, args.state_block)
+        if args.valuation_json:
+            valuations = json.loads(Path(args.valuation_json).read_text(encoding="utf-8"))
+            case["economic"] = {**case["economic"], "valuation": value_forensics(case, valuations)}
         if args.json_path:
             Path(args.json_path).write_text(json.dumps(case, indent=2), encoding="utf-8")
         else:
