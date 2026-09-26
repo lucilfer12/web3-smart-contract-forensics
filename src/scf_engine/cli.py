@@ -23,6 +23,8 @@ from .monitor import latest_block, scan_blocks
 from .economic import value_forensics
 from .pipeline import build_validation_pipeline
 from .analysis_adapters import adapter_inventory, run_hevm_symbolic, run_echidna, run_forge_fuzz
+from .agents import run_agent_team, agent_inventory
+from .fork import run_forked_tests, reproduction_evidence
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -115,6 +117,21 @@ def build_parser() -> argparse.ArgumentParser:
     fu.add_argument("--tool", choices=["echidna", "forge"], default="forge")
     fu.add_argument("--test")
     fu.add_argument("--timeout", type=int, default=300)
+
+    ag = sub.add_parser("agents", help="Run the evidence-driven local agent team")
+    ag.add_argument("target")
+    ag.add_argument("--bytecode")
+    ag.add_argument("--project")
+    ag.add_argument("--fuzz-tool", choices=["echidna", "forge"], default="forge")
+    ag.add_argument("--json", dest="json_path")
+
+    fk = sub.add_parser("fork", help="Run controlled tests against a historical EVM fork")
+    fk.add_argument("project")
+    fk.add_argument("rpc_url")
+    fk.add_argument("--block")
+    fk.add_argument("--test")
+    fk.add_argument("--timeout", type=int, default=300)
+    fk.add_argument("--reference", default="local-historical-fork")
     return parser
 
 
@@ -241,6 +258,20 @@ def main(argv: list[str] | None = None) -> int:
         result = run_echidna(args.project, args.timeout) if args.tool == "echidna" else run_forge_fuzz(args.project, args.test, args.timeout)
         print(json.dumps(result.__dict__, indent=2))
         return 0 if result.status == "PASSED" else 1
+
+    if args.command == "agents":
+        payload = run_agent_team(args.target, bytecode=args.bytecode, project=args.project, fuzz_tool=args.fuzz_tool)
+        if args.json_path:
+            Path(args.json_path).write_text(json.dumps(payload, indent=2), encoding="utf-8")
+        else:
+            print(json.dumps(payload, indent=2))
+        return 0
+
+    if args.command == "fork":
+        run = run_forked_tests(args.project, args.rpc_url, block=args.block, test_filter=args.test, timeout=args.timeout)
+        payload = {"run": run.__dict__, "reproduction": reproduction_evidence(run, args.reference)}
+        print(json.dumps(payload, indent=2))
+        return 0 if run.status == "PASSED" else 2
 
     if args.command == "validate-case":
         case = json.loads(Path(args.case_json).read_text(encoding="utf-8"))

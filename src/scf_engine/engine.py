@@ -10,7 +10,7 @@ from .parser import parse_path
 from .taint import analyze_taint_source, findings_from_taint
 from .registry import all_detectors
 
-TOOL_VERSION = "0.4.0"
+TOOL_VERSION = "1.0.0"
 
 
 def _node_id(kind: str, *parts: str) -> str:

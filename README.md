@@ -77,6 +77,8 @@ python tools/scf.py validate-case case.json --observations-json observations.jso
 python tools/scf.py adapters
 python tools/scf.py symbolic path/to/project
 python tools/scf.py fuzz path/to/project --tool echidna
+python tools/scf.py agents fixtures/contracts/vulnerable --json agents.json
+python tools/scf.py fork path/to/foundry-project https://rpc.example --block 123456
 python tools/scf.py serve --host 127.0.0.1 --port 8000
 ```
 

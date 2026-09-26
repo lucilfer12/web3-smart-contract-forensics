@@ -13,6 +13,8 @@ from .taint import analyze_taint_source, findings_from_taint
 from .rpc import RpcClient, collect_transaction
 from .forensics import build_forensic_case, build_forensic_case_without_trace
 from .state import collect_state_snapshot, addresses_from_forensic_case
+from .agents import run_agent_team, agent_inventory
+from .fork import inventory as fork_inventory
 
 
 class SourceRequest(BaseModel):
@@ -59,7 +61,7 @@ def _analyze_sources(request: AnalysisRequest):
 
 
 def create_app() -> FastAPI:
-    app = FastAPI(title="SCF Engine", version="0.4.0", description="Defensive Solidity static and forensic analysis")
+    app = FastAPI(title="SCF Engine", version="1.0.0", description="Evidence-driven Web3 security and forensic analysis")
     app.add_middleware(
         CORSMiddleware,
         allow_origins=["*"],
@@ -70,7 +72,21 @@ def create_app() -> FastAPI:
 
     @app.get("/health")
     def health():
-        return {"status": "ok", "tool": "scf-engine", "version": "0.4.0"}
+        return {"status": "ok", "tool": "scf-engine", "version": "1.0.0"}
+
+    @app.get("/capabilities")
+    def capabilities():
+        from .analysis_adapters import adapter_inventory
+        return {"schema_version": "1.0.0", "agents": agent_inventory(), "adapters": adapter_inventory(), "fork": fork_inventory()}
+
+    @app.post("/agents/run")
+    def run_agents(request: AnalysisRequest):
+        import tempfile
+        from pathlib import Path
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / request.sources[0].filename
+            path.write_text(request.sources[0].source, encoding="utf-8")
+            return run_agent_team(str(path))
 
     @app.get("/rules")
     def rules():
