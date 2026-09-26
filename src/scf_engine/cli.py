@@ -17,6 +17,8 @@ from .external import run_slither, slither_available
 from .foundry import available as foundry_available, run_tests, record_reproduction
 from .verification import EvidenceRecord
 from .rpc import RpcClient, collect_transaction, normalize_transaction
+from .forensics import build_forensic_case, build_forensic_case_without_trace
+from .state import collect_state_snapshot, addresses_from_forensic_case
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -69,6 +71,20 @@ def build_parser() -> argparse.ArgumentParser:
     x.add_argument("tx_hash")
     x.add_argument("--no-trace", action="store_true")
     x.add_argument("--json", dest="json_path")
+
+    fs = sub.add_parser("forensics", help="Build a defensive forensic case from a transaction")
+    fs.add_argument("rpc_url")
+    fs.add_argument("tx_hash")
+    fs.add_argument("--no-trace", action="store_true")
+    fs.add_argument("--state-block", help="Optional historical block tag for state evidence")
+    fs.add_argument("--json", dest="json_path")
+
+    st = sub.add_parser("state", help="Read historical EVM code, balance and selected storage")
+    st.add_argument("rpc_url")
+    st.add_argument("address")
+    st.add_argument("--block", default="latest")
+    st.add_argument("--slot", action="append", default=[])
+    st.add_argument("--json", dest="json_path")
     return parser
 
 
@@ -150,9 +166,30 @@ def main(argv: list[str] | None = None) -> int:
             print(json.dumps({"available": False, "status": status, "error": "forge executable not found"}, indent=2))
             return 2
         run = run_tests(args.project, args.test_filter)
-        verification = record_reproduction(run, args.reference)
-        print(json.dumps({"run": run.__dict__, "verification": {"state": verification.state.value, "evidence": [item.__dict__ for item in verification.evidence]}}, indent=2))
-        return 0 if run.returncode == 0 else 1
+        outcome = record_reproduction(run, args.reference)
+        print(json.dumps({"run": run.__dict__, "outcome": outcome.status, "reason": outcome.reason, "verification": {"state": outcome.verification.state.value, "evidence": [item.__dict__ for item in outcome.verification.evidence]}}, indent=2))
+        return 0 if outcome.status == "REPRODUCED" else 1
+
+    if args.command == "forensics":
+        client = RpcClient(args.rpc_url)
+        payload = collect_transaction(client, args.tx_hash, include_trace=not args.no_trace)
+        case = build_forensic_case(payload) if not args.no_trace else build_forensic_case_without_trace(payload)
+        if args.state_block:
+            addresses = addresses_from_forensic_case(case)
+            case["state_snapshot"] = collect_state_snapshot(client, addresses, args.state_block)
+        if args.json_path:
+            Path(args.json_path).write_text(json.dumps(case, indent=2), encoding="utf-8")
+        else:
+            print(json.dumps(case, indent=2))
+        return 0
+
+    if args.command == "state":
+        payload = collect_state_snapshot(RpcClient(args.rpc_url), [args.address], args.block, {args.address: args.slot})
+        if args.json_path:
+            Path(args.json_path).write_text(json.dumps(payload, indent=2), encoding="utf-8")
+        else:
+            print(json.dumps(payload, indent=2))
+        return 0
 
     if args.command == "tx":
         payload = collect_transaction(RpcClient(args.rpc_url), args.tx_hash, include_trace=not args.no_trace)

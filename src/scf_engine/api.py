@@ -10,6 +10,9 @@ from .detectors import DEFAULT_DETECTORS
 from .report import finding_dict
 from .parser import parse_source
 from .taint import analyze_taint_source, findings_from_taint
+from .rpc import RpcClient, collect_transaction
+from .forensics import build_forensic_case, build_forensic_case_without_trace
+from .state import collect_state_snapshot, addresses_from_forensic_case
 
 
 class SourceRequest(BaseModel):
@@ -19,6 +22,20 @@ class SourceRequest(BaseModel):
 
 class AnalysisRequest(BaseModel):
     sources: list[SourceRequest] = Field(min_length=1)
+
+
+class TransactionRequest(BaseModel):
+    rpc_url: str = Field(min_length=1)
+    tx_hash: str = Field(min_length=1)
+    include_trace: bool = True
+    state_block: str | None = None
+
+
+class StateRequest(BaseModel):
+    rpc_url: str = Field(min_length=1)
+    address: str = Field(min_length=1)
+    block: str = "latest"
+    slots: list[str] = Field(default_factory=list)
 
 
 def _analyze_sources(request: AnalysisRequest):
@@ -91,5 +108,18 @@ def create_app() -> FastAPI:
     @app.post("/analyze/source")
     def analyze_single(request: SourceRequest):
         return _analyze_sources(AnalysisRequest(sources=[request]))
+
+    @app.post("/forensics/transaction")
+    def forensic_transaction(request: TransactionRequest):
+        client = RpcClient(request.rpc_url)
+        payload = collect_transaction(client, request.tx_hash, include_trace=request.include_trace)
+        case = build_forensic_case(payload) if request.include_trace else build_forensic_case_without_trace(payload)
+        if request.state_block:
+            case["state_snapshot"] = collect_state_snapshot(client, addresses_from_forensic_case(case), request.state_block)
+        return case
+
+    @app.post("/forensics/state")
+    def forensic_state(request: StateRequest):
+        return collect_state_snapshot(client=RpcClient(request.rpc_url), addresses=[request.address], block=request.block, slots_by_address={request.address: request.slots})
 
     return app

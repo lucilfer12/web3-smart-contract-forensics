@@ -10,6 +10,13 @@ from typing import Any
 from .verification import EvidenceRecord, Verification, VerificationState
 
 
+@dataclass(frozen=True)
+class ReproductionOutcome:
+    status: str
+    reason: str
+    verification: Verification
+
+
 @dataclass
 class FoundryRun:
     available: bool
@@ -34,10 +41,12 @@ def run_tests(project: str, test_filter: str | None = None, timeout: int = 180) 
     return FoundryRun(True, process.returncode, process.stdout, process.stderr, command)
 
 
-def record_reproduction(run: FoundryRun, reference: str) -> Verification:
+def record_reproduction(run: FoundryRun, reference: str) -> ReproductionOutcome:
     verification = Verification()
-    if not run.available or run.returncode != 0:
-        return verification
+    if not run.available:
+        return ReproductionOutcome("NOT_REPRODUCED", run.stderr or "reproduction tool unavailable", verification)
+    if run.returncode != 0:
+        return ReproductionOutcome("NOT_REPRODUCED", "controlled test command failed", verification)
     verification.promote(
         VerificationState.REPRODUCED,
         [
@@ -46,4 +55,4 @@ def record_reproduction(run: FoundryRun, reference: str) -> Verification:
             EvidenceRecord("controlled-reproduction", json.dumps({"command": run.command, "returncode": run.returncode}), "Foundry test completed successfully in a controlled project.")
         ],
     )
-    return verification
+    return ReproductionOutcome("REPRODUCED", "controlled Foundry test completed successfully", verification)
