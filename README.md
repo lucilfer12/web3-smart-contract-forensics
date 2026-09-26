@@ -2,15 +2,6 @@
 
 Evidence-first Web3 security research evolving into a verification-driven forensic platform.
 
-## What exists today
-
-- 226 preserved Critical security records in the legacy corpus.
-- 226 original case files retained under `cases/`.
-- A new additive audit layer under `audit-reports/`.
-- Structured audit records in `datasets/audit_reports.json`.
-- Evidence/provenance-aware validation and source reachability tooling.
-- A deterministic taxonomy classifier that never promotes a finding from severity alone.
-
 ## Audit report model
 
 Every generated report follows:
