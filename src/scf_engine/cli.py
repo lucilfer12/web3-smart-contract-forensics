@@ -19,6 +19,7 @@ from .verification import EvidenceRecord
 from .rpc import RpcClient, collect_transaction, normalize_transaction
 from .forensics import build_forensic_case, build_forensic_case_without_trace
 from .state import collect_state_snapshot, addresses_from_forensic_case
+from .monitor import latest_block, scan_blocks
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -85,6 +86,13 @@ def build_parser() -> argparse.ArgumentParser:
     st.add_argument("--block", default="latest")
     st.add_argument("--slot", action="append", default=[])
     st.add_argument("--json", dest="json_path")
+
+    m = sub.add_parser("monitor", help="Scan EVM blocks for watched-address activity")
+    m.add_argument("rpc_url")
+    m.add_argument("--address", action="append", default=[])
+    m.add_argument("--from-block", type=int)
+    m.add_argument("--to-block", type=int)
+    m.add_argument("--json", dest="json_path")
     return parser
 
 
@@ -185,6 +193,18 @@ def main(argv: list[str] | None = None) -> int:
 
     if args.command == "state":
         payload = collect_state_snapshot(RpcClient(args.rpc_url), [args.address], args.block, {args.address: args.slot})
+        if args.json_path:
+            Path(args.json_path).write_text(json.dumps(payload, indent=2), encoding="utf-8")
+        else:
+            print(json.dumps(payload, indent=2))
+        return 0
+
+    if args.command == "monitor":
+        client = RpcClient(args.rpc_url)
+        end_block = args.to_block if args.to_block is not None else latest_block(client)
+        start_block = args.from_block if args.from_block is not None else end_block
+        events = scan_blocks(client, start_block, end_block, set(args.address))
+        payload = {"schema_version": "0.5.0", "from_block": hex(start_block), "to_block": hex(end_block), "events": [item.as_dict() for item in events], "mutating": False}
         if args.json_path:
             Path(args.json_path).write_text(json.dumps(payload, indent=2), encoding="utf-8")
         else:

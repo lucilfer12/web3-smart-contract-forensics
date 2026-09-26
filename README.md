@@ -69,6 +69,7 @@ python tools/scf.py tx https://rpc.example <tx-hash> --json tx.json
 python tools/scf.py forensics https://rpc.example <tx-hash> --json case.json
 python tools/scf.py forensics https://rpc.example <tx-hash> --state-block 0x123456
 python tools/scf.py state https://rpc.example <address> --block 0x123456 --slot 0x0
+python tools/scf.py monitor https://rpc.example --address 0x... --from-block 123 --to-block 130 --json alerts.json
 python tools/scf.py serve --host 127.0.0.1 --port 8000
 ```
 

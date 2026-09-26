@@ -39,3 +39,7 @@ The local FastAPI service exposes POST /forensics/transaction and POST /forensic
 ## Boundaries
 
 This component is forensic and defensive. It does not submit transactions, mutate remote state, generate private keys, or claim exploit success from heuristics alone.
+
+## Read-only monitoring
+
+monitor.py provides deterministic block scanning for watched addresses. It emits transaction-touch events from eth_getBlockByNumber without submitting transactions or mutating state. This is a foundation for future upgrade, privileged-role, oracle and liquidity anomaly detectors; those higher-level detectors should attach concrete event/state evidence before creating an alert.
