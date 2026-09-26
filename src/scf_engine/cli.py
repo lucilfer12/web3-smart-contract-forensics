@@ -22,6 +22,7 @@ from .state import collect_state_snapshot, addresses_from_forensic_case
 from .monitor import latest_block, scan_blocks
 from .economic import value_forensics
 from .pipeline import build_validation_pipeline
+from .analysis_adapters import adapter_inventory, run_hevm_symbolic, run_echidna, run_forge_fuzz
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -101,6 +102,19 @@ def build_parser() -> argparse.ArgumentParser:
     vp.add_argument("case_json")
     vp.add_argument("--observations-json")
     vp.add_argument("--json", dest="json_path")
+
+    ai = sub.add_parser("adapters", help="Show optional symbolic/fuzzing tool availability")
+    ai.add_argument("--json", dest="json_path")
+
+    sa = sub.add_parser("symbolic", help="Run an existing HEVM symbolic test target")
+    sa.add_argument("project")
+    sa.add_argument("--timeout", type=int, default=180)
+
+    fu = sub.add_parser("fuzz", help="Run an existing Echidna or Foundry fuzz target")
+    fu.add_argument("project")
+    fu.add_argument("--tool", choices=["echidna", "forge"], default="forge")
+    fu.add_argument("--test")
+    fu.add_argument("--timeout", type=int, default=300)
     return parser
 
 
@@ -209,6 +223,24 @@ def main(argv: list[str] | None = None) -> int:
         else:
             print(json.dumps(payload, indent=2))
         return 0
+
+    if args.command == "adapters":
+        payload = adapter_inventory()
+        if args.json_path:
+            Path(args.json_path).write_text(json.dumps(payload, indent=2), encoding="utf-8")
+        else:
+            print(json.dumps(payload, indent=2))
+        return 0
+
+    if args.command == "symbolic":
+        result = run_hevm_symbolic(args.project, args.timeout)
+        print(json.dumps(result.__dict__, indent=2))
+        return 0 if result.status == "PASSED" else 1
+
+    if args.command == "fuzz":
+        result = run_echidna(args.project, args.timeout) if args.tool == "echidna" else run_forge_fuzz(args.project, args.test, args.timeout)
+        print(json.dumps(result.__dict__, indent=2))
+        return 0 if result.status == "PASSED" else 1
 
     if args.command == "validate-case":
         case = json.loads(Path(args.case_json).read_text(encoding="utf-8"))

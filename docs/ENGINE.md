@@ -71,6 +71,19 @@ CLI:
 
 This is an orchestration layer, not a claim that the repository already contains every future symbolic/fuzzing agent.
 
+## Symbolic execution and fuzzing adapters
+
+Optional adapters now expose existing operator-controlled analysis projects to HEVM symbolic tests, Echidna property fuzzing, and Foundry fuzz tests.
+
+The adapters never synthesize or submit exploit transactions. They execute an existing local test target and preserve tool availability, return status, stdout/stderr and command evidence. Missing tools are reported as UNAVAILABLE, not treated as a clean security result.
+
+CLI:
+
+    python tools/scf.py adapters
+    python tools/scf.py symbolic path/to/project
+    python tools/scf.py fuzz path/to/project --tool echidna
+    python tools/scf.py fuzz path/to/foundry --tool forge --test invariantName
+
 ## Security model
 
 The HTTP service accepts source text, not arbitrary server filesystem paths. The default CLI server binds to loopback. Reproduction is designed around controlled projects and synthetic or isolated environments.

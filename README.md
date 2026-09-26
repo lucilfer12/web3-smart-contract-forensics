@@ -74,6 +74,9 @@ python tools/scf.py forensics https://rpc.example <tx-hash> --valuation-json val
 python tools/scf.py state https://rpc.example <address> --block 0x123456 --slot 0x0
 python tools/scf.py monitor https://rpc.example --address 0x... --from-block 123 --to-block 130 --json alerts.json
 python tools/scf.py validate-case case.json --observations-json observations.json
+python tools/scf.py adapters
+python tools/scf.py symbolic path/to/project
+python tools/scf.py fuzz path/to/project --tool echidna
 python tools/scf.py serve --host 127.0.0.1 --port 8000
 ```
 
